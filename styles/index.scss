@@ -2,16 +2,23 @@
   box-sizing: border-box;
 }
 
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @import 'variables';
 @import 'price-card';
 
 .price-tables {
-  font-family: 'Montserrat', sans-serif;
-  background-color: $bg-tablet-clr;
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 1440px;
+  height: 1000px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: $bg-tablet-clr;
   color: $text-clr;
 }
 

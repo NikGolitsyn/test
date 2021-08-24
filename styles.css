@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .price-card {
   position: relative;
   display: flex;
@@ -110,12 +116,13 @@
 }
 
 .price-tables {
-  font-family: "Montserrat", sans-serif;
-  background-color: #141b1c;
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 1440px;
+  height: 1000px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #141b1c;
   color: #fff;
 }
 
