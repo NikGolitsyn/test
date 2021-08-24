@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 100vh;
 }
 
 .price-card {
@@ -117,7 +118,8 @@
 
 .price-tables {
   display: flex;
-  padding: 115px 132px;
+  justify-content: center;
+  align-items: center;
   width: 1440px;
   height: 1000px;
   font-family: "Montserrat", sans-serif;
